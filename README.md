@@ -1,6 +1,6 @@
 # t3m
 
-![Simple mainpage screenshot](https://raw.githubusercontent.com/DonVeds/T3M/master/Screenshot%2020-03-05%at%11.02.52.png "Simple mainpage screenshot")
+![Simple mainpage screenshot](https://github.com/DonVeds/T3M/blob/master/Screenshot%202020-03-05%20at%2011.02.52.png "Simple mainpage screenshot")
 
 ## Project setup
 ```
