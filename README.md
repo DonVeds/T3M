@@ -1,29 +1,25 @@
 # t3m
 
+![Simple mainpage screenshot](https://raw.githubusercontent.com/DonVeds/T3M/master/Screenshot%2020-03-05%at%11.02.52.png "Simple mainpage screenshot")
+
 ## Project setup
 ```
 npm install
 ```
-
 ### Compiles and hot-reloads for development
 ```
 npm run serve
 ```
-
 ### Compiles and minifies for production
 ```
 npm run build
 ```
 
-### Run your tests
-```
-npm run test
-```
+Проект T3M использует Vuex как единую state базу. Мы подгружаем примеры товаров-котов из локального json и записываем все в store. Css библиотека Buefy(bulma)
+Фильтрация происходит за счет метода filtred, прогоняя массив для отрисовки через множество if statments пока заданный фильтр не найдет инструкции к исполнению. Присутсвует пагинация 10 карточек на страницу
+Основной отличительной идеей является левая панель, которая реагирует на выбранный товар. Если нажать на любую карточку с главного экрана, помимо того, что вас перекинет на ее личную страницу, так еще и приложение разблокирует быстрый переходы через новые кнопки Cat и Edit. Хотя это не отменяет возможности через адрессную строку попасть на любой интерфейс любого кота, дрстаточно вбить id.
+Реализована валидация из тз
+В остальном приложение работает как обычный crud spa на vue, с сеттерами, computed, methods и всем необходимым.
+Во время выполнения задания я не реализовал возможность добавления фотогрфии, так как никогда не работал с ними и меня подгоняло время. 
+Всего на работу было затраченно чистых 18 часов 4 минуты.
 
-### Lints and fixes files
-```
-npm run lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
