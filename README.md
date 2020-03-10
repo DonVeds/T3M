@@ -1,6 +1,7 @@
 # t3m
 
-![Simple mainpage screenshot](https://github.com/DonVeds/T3M/blob/master/Screenshot%202020-03-05%20at%2011.02.52.png "Simple mainpage screenshot")
+![Simple mainpage screenshot](https://github.com/DonVeds/T3M/blob/master/
+Screenshot%202020-03-05%20at%2011.02.52.png "Simple mainpage screenshot")
 
 ## Project setup
 ```
@@ -22,4 +23,6 @@ npm run build
 В остальном приложение работает как обычный crud spa на vue, с сеттерами, computed, methods и всем необходимым.
 Во время выполнения задания я не реализовал возможность добавления фотогрфии, так как никогда не работал с ними и меня подгоняло время. 
 Всего на работу было затраченно чистых 18 часов 4 минуты.
+
+TODO: Разработка более легкого способа фильтрования
 
